@@ -1,2 +1,47 @@
-# Ai-Based-Nutrition-Analyzer
-AI-based web app that analyzes meal input and provides nutritional insights and recommendations using Python and Streamlit.
+# AI-Based Nutrition Analyzer
+
+AI-Based Nutrition Analyzer is a Streamlit-based web application that takes meal descriptions as input and provides detailed nutritional insights and personalized recommendations. The application helps users understand their daily nutrient intake and make healthier dietary decisions.
+
+---
+
+## 🚀 Tech Stack
+- Python  
+- Pandas  
+- NumPy  
+- Streamlit  
+- Data Analysis & EDA  
+
+---
+
+## ✨ Features
+- Natural language meal input processing  
+- Nutrition analysis (calories, protein, carbohydrates, fats)  
+- Interactive visualization of nutritional data  
+- Personalized food recommendations  
+- Health tips based on user input  
+
+---
+
+## ⚙️ How It Works
+1. User enters a meal description (e.g., "2 eggs, 1 cup rice, 1 apple")  
+2. The application processes the input  
+3. Calculates nutritional values using a predefined dataset  
+4. Displays insights and recommendations  
+
+---
+
+## 📸 Screenshots
+
+### Input Example
+![Input](screenshots/input.png)
+
+### Output Dashboard
+![Output](screenshots/output.png)
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
